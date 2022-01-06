@@ -11,6 +11,7 @@
 		01AE1BFA27831CEA000F7D2A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AE1BF927831CEA000F7D2A /* ContentView.swift */; };
 		01AE1BFC27831CEC000F7D2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01AE1BFB27831CEC000F7D2A /* Assets.xcassets */; };
 		01AE1BFF27831CEC000F7D2A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01AE1BFE27831CEC000F7D2A /* Preview Assets.xcassets */; };
+		01AE1C0727832005000F7D2A /* DanmakuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AE1C0627832005000F7D2A /* DanmakuScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		01AE1BFB27831CEC000F7D2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01AE1BFE27831CEC000F7D2A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		01AE1C0027831CEC000F7D2A /* Danmaku.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Danmaku.entitlements; sourceTree = "<group>"; };
+		01AE1C0627832005000F7D2A /* DanmakuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanmakuScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				01AE1BF727831CEA000F7D2A /* DanmakuApp.swift */,
 				01AE1BF927831CEA000F7D2A /* ContentView.swift */,
+				01AE1C0627832005000F7D2A /* DanmakuScene.swift */,
 				01AE1BFB27831CEC000F7D2A /* Assets.xcassets */,
 				01AE1C0027831CEC000F7D2A /* Danmaku.entitlements */,
 				01AE1BFD27831CEC000F7D2A /* Preview Content */,
@@ -85,6 +88,8 @@
 			dependencies = (
 			);
 			name = Danmaku;
+			packageProductDependencies = (
+			);
 			productName = Danmaku;
 			productReference = 01AE1BF427831CEA000F7D2A /* Danmaku.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +118,8 @@
 				Base,
 			);
 			mainGroup = 01AE1BEB27831CEA000F7D2A;
+			packageReferences = (
+			);
 			productRefGroup = 01AE1BF527831CEA000F7D2A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -140,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				01AE1BFA27831CEA000F7D2A /* ContentView.swift in Sources */,
+				01AE1C0727832005000F7D2A /* DanmakuScene.swift in Sources */,
 				01AE1BF827831CEA000F7D2A /* DanmakuApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

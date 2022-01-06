@@ -6,11 +6,24 @@
 //
 
 import SwiftUI
+import SpriteKit
 
 struct ContentView: View {
+    var scene: SKScene = {
+        let s = DanmakuScene(size: .init(width: 720, height: 480))
+        return s
+    }()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            SpriteView(scene: scene).padding()
+            Button("Pause") {
+                scene.isPaused = !scene.isPaused
+            }
+        }
+        
+        
+        
     }
 }
 
